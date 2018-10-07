@@ -1,0 +1,39 @@
+{
+  "name": "react-gest",
+  "version": "0.1.0",
+  "description": "React components library with animated gestures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gribkovartem/react-gest.git"
+  },
+  "keywords": [
+    "react",
+    "gesture",
+    "animation"
+  ],
+  "author": "Artem Gribkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gribkovartem/react-gest/issues"
+  },
+  "homepage": "https://github.com/gribkovartem/react-gest#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.11",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
+  }
+}
